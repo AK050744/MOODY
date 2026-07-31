@@ -1,0 +1,10 @@
+const router = require('express').Router();
+const { checkIn, getHistory, getTodayMood, followUp, calmMode } = require('../controllers/moodController');
+const { protect } = require('../middleware/authMiddleware');
+router.use(protect);
+router.post('/checkin', checkIn);
+router.get('/history', getHistory);
+router.get('/today', getTodayMood);
+router.post('/:id/followup', followUp);
+router.get('/calm-mode', calmMode);
+module.exports = router;
