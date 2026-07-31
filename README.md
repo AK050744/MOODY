@@ -1,6 +1,6 @@
-# MoodEnhancer Backend
+# MoodEnhancer aka MOODY
 
-> AI-powered mental wellness platform for youth — Node.js + Express + MongoDB + OpenAI
+> AI-powered mental wellness platform for youth — Node.js + Express + MongoDB + Gemini
 
 ---
 
